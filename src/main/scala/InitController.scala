@@ -11,6 +11,22 @@ object InitController {
     ListSample.list1()
     ApplicativeSample.app1()
 
+
+
+    val v42 = 42
+    Some(3) match {
+      case Some(v42) => println(v42); println("42")
+      case _ => println("Not 42")
+    }
+
+
+
+    val tt = TT("sldkfjslf", "sldfjlsdkjf")
+
+    tt.b
+
   }
 
 }
+
+case class TT(private val a : String, var b : String)
